@@ -1,3 +1,22 @@
+body {
+  background:#ebedee;
+  background-image: linear-gradient(#fdfbfb 0%, #ebedee);
+  background-repeat: no-repeat;
+}
+.app-todo {
+  text-align: center;
+}
 h3 {
-    margin-top:50px;
+  margin-top: 50px;
+}
+.alert {
+  text-align: left;
+}
+.alert.alert-danger {
+  text-decoration: line-through;
+}
+
+.icon-complete {
+  cursor: pointer;
+  margin-right: 10px;
 }
